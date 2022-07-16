@@ -12,7 +12,10 @@ Example:
 #include <stdlib.h>
 
 
-int threeCharToDigit(char characters[2])
+int threeCharToDigit(char characters[3])
+/*
+Function is expected to receive a char array of size '3'.
+*/
 {
     int num = 0;
     for (int index = 0; index < 3; index++)
@@ -31,9 +34,9 @@ int threeCharToDigit(char characters[2])
 
 int main()
 {
-    char characters[2];
-    printf("Enter three characters in unison (Ex. 'abc'): ");
+    char characters[3];
+    printf("Enter three characters: ");
     scanf("%s", &characters);
-    printf("%s = %d\n", characters, threeCharToDigit(characters));
+    printf("%d\n", threeCharToDigit(characters));
     return 0;
 }
