@@ -17,3 +17,4 @@ int main()
     printf("Count of '2': %d\n", countArr[2]);
     return 0;
 }
+

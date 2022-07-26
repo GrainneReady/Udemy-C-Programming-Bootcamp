@@ -50,6 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Files
 .vscode
 .vs
 Udemy-C-Programming-Bootcamp.code-workspace
